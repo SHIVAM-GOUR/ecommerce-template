@@ -41,7 +41,7 @@ const HeroSection = () => {
       {/* Left Section - Text */}
       <div className="text-center md:text-left">
         <p className="text-3xl md:text-6xl leading-tight">
-          Shivam's Prescription for<br /> Affordable Health<br /> Solutions
+          Prescription for Affordable Health Solutions
         </p>
         <p className="font-poppins text-sm md:text-base my-4">
           Elevate your health journey with exclusive discounts and unparalleled convenience. <br />

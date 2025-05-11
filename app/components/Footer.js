@@ -96,6 +96,7 @@
 // };
 
 // export default Footer;
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -124,11 +125,11 @@ const Footer = () => {
                     <div>
                         <h4 className="text-xl font-General Sans font-semibold mb-4 text-white">Quick Links</h4>
                         <ul className="space-y-2">
-                            <li><a href="/" className="hover:text-white">Home</a></li>
-                            <li><a href="/about" className="hover:text-white">About</a></li>
-                            <li><a href="/services" className="hover:text-white">Services</a></li>
-                            <li><a href="/careers" className="hover:text-white">Careers</a></li>
-                            <li><a href="/contact" className="hover:text-white">Contact</a></li>
+                            <li><Link href="/" className="hover:text-white">Home</Link></li>
+                            <li><Link href="/about" className="hover:text-white">About</Link></li>
+                            <li><Link href="/services" className="hover:text-white">Services</Link></li>
+                            <li><Link href="/careers" className="hover:text-white">Careers</Link></li>
+                            <li><Link href="/contact" className="hover:text-white">Contact</Link></li>
                         </ul>
                     </div>
 
@@ -172,8 +173,8 @@ const Footer = () => {
                 <div className="border-t border-white pt-4 text-center mt-8">
                     <p className="text-sm">&copy; 2023 HEALTHY. All rights reserved.</p>
                     <ul className="flex justify-center space-x-4 mt-2 text-sm">
-                        <li><a href="/terms-and-conditions" className="hover:text-white">Terms and Conditions</a></li>
-                        <li><a href="/privacy-policy" className="hover:text-white">Privacy Policy</a></li>
+                        <li><div className="hover:text-white">Terms and Conditions</div></li>
+                        <li><div className="hover:text-white">Privacy Policy</div></li>
                     </ul>
                 </div>
             </div>
